@@ -1,0 +1,60 @@
+﻿================================
+=
+= READY_API_HOME = /readyapi/ReadyAPI-2.5.0
+=
+================================
+May 20, 2019 12:57:04 AM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+00:57:07,934 INFO  [license] ReadyAPI 2.5.0 (build 1448) started - System properties: {OS=Linux, User name=?}
+00:57:07,957 INFO  [DefaultSoapUICore] Creating new settings at [/readyapi/?/soapui-settings.xml]
+00:57:08,861 INFO  [DefaultSoapUICore] No JDBC drivers were found in the directory bin/ext.
+00:57:09,233 WARN  [SoapUIProGroovyScriptEngineFactory] Missing scripts folder [/readyapi/scripts]
+00:57:09,235 INFO  [DefaultSoapUICore] Adding listeners from [/readyapi/ReadyAPI-2.5.0/bin/listeners/demo-listeners.xml]
+00:57:09,319 WARN  [SoapUIJasperReportManager] The path to the report directory has been set to the default value because the report format has changed. Please update your custom reports if you want to use them with ReadyAPI 2+.
+00:57:11,924 WARN  [SoapUIProGroovyScriptEngineFactory] Missing scripts folder [/readyapi/scripts]
+00:57:12,602 INFO  [PluginManager] 0 plugins loaded in 3 ms
+00:57:12,603 INFO  [DefaultSoapUICore] All plugins loaded
+00:57:12,651 DEBUG [LicenseManagerServiceImpl] Trying to initialize license for SoapUI
+00:57:12,653 DEBUG [LicenseManagerServiceImpl] No license found for SoapUI
+00:57:12,654 DEBUG [LicenseManagerServiceImpl] License host for SoapUI: SOAPTESTS-47MS5
+00:57:12,679 DEBUG [LicenseManagerServiceImpl] Trying to initialize license for SoapUI
+00:57:12,685 DEBUG [LicenseManagerServiceImpl] No license found for SoapUI
+00:57:12,691 DEBUG [LicenseManagerServiceImpl] License host for SoapUI: SOAPTESTS-47MS5
+00:57:12,701 DEBUG [LicenseManagerServiceImpl] Trying to initialize license for LoadUI
+00:57:12,705 DEBUG [LicenseManagerServiceImpl] No license found for LoadUI
+00:57:12,710 DEBUG [LicenseManagerServiceImpl] License host for LoadUI: SOAPTESTS-47MS5
+00:57:12,736 DEBUG [LicenseManagerServiceImpl] Trying to initialize license for Secure
+00:57:12,755 DEBUG [LicenseManagerServiceImpl] No license found for Secure
+00:57:12,763 DEBUG [LicenseManagerServiceImpl] License host for Secure: SOAPTESTS-47MS5
+00:57:12,785 DEBUG [LicenseManagerServiceImpl] Trying to initialize license for ServiceV
+00:57:12,799 DEBUG [LicenseManagerServiceImpl] No license found for ServiceV
+00:57:12,802 DEBUG [LicenseManagerServiceImpl] License host for ServiceV: SOAPTESTS-47MS5
+No valid SoapUI license exists.
+Please enter absolute path of the license file (.zip or .key):
+00:57:12,803 INFO  [license] ReadyAPI 2.5.0 shutting down
+00:57:12,805 ERROR [SoapUIProTestCaseRunner] java.util.NoSuchElementException: No line found
+00:57:12,805 ERROR [SoapUI] An error occurred [No line found], see error log for details
+00:57:12,808 ERROR [errorlog] java.util.NoSuchElementException: No line found
+java.util.NoSuchElementException: No line found
+	at java.util.Scanner.nextLine(Scanner.java:1540) ~[?:1.8.0_162]
+	at com.smartbear.ready.license.util.CommandLineUtils.readLine(CommandLineUtils.java:77) ~[ready-api-license-2.5.0.jar:2.5.0]
+	at com.smartbear.ready.license.headless.HeadlessLicenseInstaller.installLicense(HeadlessLicenseInstaller.java:32) ~[ready-api-license-2.5.0.jar:2.5.0]
+	at com.smartbear.ready.license.LicenseManagerServiceImpl.a(LicenseManagerServiceImpl.java:320) ~[ready-api-license-2.5.0.jar:2.5.0]
+	at com.smartbear.ready.license.CombinedSoapUILicenseManagerService.promptForLicenseInHeadlessMode(CombinedSoapUILicenseManagerService.java:203) ~[ready-api-license-2.5.0.jar:2.5.0]
+	at com.smartbear.ready.cmd.runner.pro.SoapUIProTestCaseRunner.runRunner(SoapUIProTestCaseRunner.java:95) ~[ready-api-runners-2.5.0.jar:?]
+	at com.smartbear.ready.cmd.runner.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:292) ~[ready-api-runners-2.5.0.jar:?]
+	at com.smartbear.ready.cmd.runner.AbstractSoapUIRunner.runFromCommandLine(AbstractSoapUIRunner.java:173) [ready-api-runners-2.5.0.jar:?]
+	at com.smartbear.ready.cmd.runner.pro.SoapUIProTestCaseRunner.init(SoapUIProTestCaseRunner.java:86) [ready-api-runners-2.5.0.jar:?]
+	at com.smartbear.ready.cmd.runner.pro.SoapUIProTestCaseRunner.main(SoapUIProTestCaseRunner.java:82) [ready-api-runners-2.5.0.jar:?]
+java.util.NoSuchElementException: No line found
+	at java.util.Scanner.nextLine(Scanner.java:1540)
+	at com.smartbear.ready.license.util.CommandLineUtils.readLine(CommandLineUtils.java:77)
+	at com.smartbear.ready.license.headless.HeadlessLicenseInstaller.installLicense(HeadlessLicenseInstaller.java:32)
+	at com.smartbear.ready.license.LicenseManagerServiceImpl.a(LicenseManagerServiceImpl.java:320)
+	at com.smartbear.ready.license.CombinedSoapUILicenseManagerService.promptForLicenseInHeadlessMode(CombinedSoapUILicenseManagerService.java:203)
+	at com.smartbear.ready.cmd.runner.pro.SoapUIProTestCaseRunner.runRunner(SoapUIProTestCaseRunner.java:95)
+	at com.smartbear.ready.cmd.runner.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:292)
+	at com.smartbear.ready.cmd.runner.AbstractSoapUIRunner.runFromCommandLine(AbstractSoapUIRunner.java:173)
+	at com.smartbear.ready.cmd.runner.pro.SoapUIProTestCaseRunner.init(SoapUIProTestCaseRunner.java:86)
+	at com.smartbear.ready.cmd.runner.pro.SoapUIProTestCaseRunner.main(SoapUIProTestCaseRunner.java:82)
+123

@@ -1,0 +1,149 @@
+﻿================================
+=
+= READY_API_HOME = /readyapi/ReadyAPI-2.5.0
+=
+================================
+00:48:42,773 INFO  [license] ReadyAPI 2.5.0 (build 1448) started - System properties: {OS=Linux, User name=root}
+00:48:42,798 INFO  [DefaultSoapUICore] Creating new settings at [/root/soapui-settings.xml]
+00:48:43,188 INFO  [DefaultSoapUICore] No JDBC drivers were found in the directory bin/ext.
+00:48:43,377 WARN  [SoapUIProGroovyScriptEngineFactory] Missing scripts folder [/readyapi/scripts]
+00:48:43,379 INFO  [DefaultSoapUICore] Adding listeners from [/readyapi/ReadyAPI-2.5.0/bin/listeners/demo-listeners.xml]
+00:48:43,454 WARN  [SoapUIJasperReportManager] The path to the report directory has been set to the default value because the report format has changed. Please update your custom reports if you want to use them with ReadyAPI 2+.
+00:48:45,313 WARN  [SoapUIProGroovyScriptEngineFactory] Missing scripts folder [/readyapi/scripts]
+00:48:45,547 DEBUG [LicenseManagerServiceImpl] Trying to initialize license for SoapUI
+00:48:45,548 DEBUG [LicenseManagerServiceImpl] No license found for SoapUI
+00:48:45,552 DEBUG [LicenseManagerServiceImpl] Trying to initialize license for SoapUI
+00:48:45,551 DEBUG [LicenseManagerServiceImpl] License host for SoapUI: SOAPTESTS-47R59
+00:48:45,553 DEBUG [LicenseManagerServiceImpl] License host for SoapUI: SOAPTESTS-47R59
+00:48:45,686 DEBUG [LicenseManagerServiceImpl] Valid license file found: /root/.soapui/soapui.key, last modified: 2019-05-19T23:37:56.000+0000
+00:48:46,017 DEBUG [LicenseManagerServiceImpl] Trying to initialize license for LoadUI
+00:48:46,018 DEBUG [LicenseManagerServiceImpl] No license found for LoadUI
+00:48:46,023 DEBUG [LicenseManagerServiceImpl] Trying to initialize license for Secure
+00:48:46,024 DEBUG [LicenseManagerServiceImpl] License host for LoadUI: SOAPTESTS-47R59
+00:48:46,024 DEBUG [LicenseManagerServiceImpl] No license found for Secure
+00:48:46,027 DEBUG [LicenseManagerServiceImpl] License host for Secure: SOAPTESTS-47R59
+00:48:46,028 DEBUG [LicenseManagerServiceImpl] Trying to initialize license for ServiceV
+00:48:46,028 DEBUG [LicenseManagerServiceImpl] No license found for ServiceV
+00:48:46,028 DEBUG [LicenseManagerServiceImpl] License host for ServiceV: SOAPTESTS-47R59
+00:48:46,371 INFO  [PluginManager] Adding plugin from [/root/.soapui/plugins/ready-mqtt-plugin-dist.jar]
+00:48:46,371 INFO  [PluginManager] Adding plugin from [/root/.soapui/plugins/ready-uxm-plugin-1.1.0.jar]
+00:48:46,797 INFO  [PluginManager] Adding plugin from [/root/.soapui/plugins/ready-jira-plugin-1.2.jar]
+00:48:46,800 INFO  [PluginManager] 3 plugins loaded in 430 ms
+00:48:46,800 INFO  [DefaultSoapUICore] All plugins loaded
+00:48:47,155 INFO  [WsdlProject] Loaded project from [file:/readyapi/soap/EPP_API_AutomationProject_V1.0.xml]
+00:48:47,371 WARN  [SoapUIProGroovyScriptEngineFactory] Missing scripts folder [/readyapi/scripts]
+00:48:47,593 INFO  [WsdlProject] Loaded project from [file:/readyapi/soap/EPP_API_AutomationProject_V1.0.xml]
+00:48:47,603 WARN  [SoapUIProGroovyScriptEngineFactory] Missing scripts folder [/readyapi/scripts]
+00:48:47,618 INFO  [SoapUIProTestCaseRunner] Running tests in the project [EPP_API_AutomationProject_V1.0]
+00:48:47,627 INFO  [SoapUIProTestCaseRunner] Running Test Suite [Component_TestSuite], runType = SEQUENTIAL
+00:48:47,653 INFO  [SoapUIProTestCaseRunner] Running TestCase [Component_TestScript]
+00:48:48,640 INFO  [log] /readyapi/soap//DetailedReport////Component//
+00:48:48,658 INFO  [log] /readyapi/soap//DetailedReport////Component//
+Warning:  Sheet name SIT1_Component_TestSuite_Report_20052019_004848 too long - truncating
+00:48:49,021 INFO  [log] 2019-05-20T00:48:49 020
+00:48:49,029 INFO  [log] /readyapi/soap/DetailedReport/Component/SIT1_2019-05-20_Logs
+00:48:49,048 INFO  [SoapUIProTestCaseRunner] running step [SetupTestData]
+00:48:49,096 INFO  [log] /readyapi/soap//TestData//Component//FrameworkProperties_SIT1.xlsx
+00:48:49,124 INFO  [SoapUIProTestCaseRunner] running step [TestDataPayload]
+00:48:49,558 INFO  [SoapUIProTestCaseRunner] running step [KeyStore]
+00:48:49,679 INFO  [log] https://iambccdpqa1.bmogc.net:7558/esbapi/enterpriseMessageCentre/v2/message/employee
+00:48:49,681 INFO  [log] try
+00:48:49,682 INFO  [log] {keyStorePassword=password}
+00:48:49,684 INFO  [log] {keyStorePath=/readyapi/soap/KeyStore/dp_shakedown.jks}
+00:48:49,686 INFO  [Helper] Updating keyStore...
+00:48:49,689 INFO  [Helper] Updating keyStore...
+00:48:49,691 INFO  [Helper] Updating keyStore...
+00:48:49,691 INFO  [SoapUIHttpClient] Initializing KeyStore
+00:48:49,785 INFO  [Helper] Updating keyStore...
+00:48:49,785 INFO  [SoapUIHttpClient] Initializing KeyStore
+00:48:49,802 INFO  [log] ????1V?0??0??0
++*??il??.??;?T?????]\y??y????~8?f???'_Ds?m.?w?u?o(d?1?T=??f??/?????C.?+/?>[?%qq?(?)}\9 J?X?O??????p?P?oi?????eZ??9???|?l7???Pk???T%C?a????S!#b?????G?"T??x?%?J???????Ax?9?????X?4????????[???>?U????$N?p?_ ?~C4??i??r?;Eyn(????u???R?Xm???R??w:X?'?sT-??c???????wIA??|K?
+???P??%??c??d??BAw? |)??"Q"??H??F?X&?Q?7-?n
+?@c?m1???G??+??DLF.Yl?m??:Y?i??DiIr?;.??j?<Vk??}?	eT7[???O?d?B??WA??????;?!x??
+Wm??????|
+???I?S???Y?K????#????}????\?,??*l?A!Q?? ??m?.?|}Q?0????FPP{??RK2"?(6?C?hy??????[jD?=????:-??v??????S???Q???L?r??;??i??S???_u?
+?d??P?g?RO???-T?}???F??"'?+?m?\???!W?????????:??a?F??C?????
+?x??d>??????7??Z??5?\?H??C?????\?>+:?,?Oj??'?????|T?sLz??(?a?5@???hr_xL=???@o?Y???G????U^??XP?????7?.8??>V%{<%????O????'K*_????5???d=??tW?r?:Q?????C??G?3???%-?C?7???????3T=????=N????!?'?YnlR?l?j7?y??^???s?y?KZ8??S??
+xP?	?????&;Ovs???!??r6?\??t??????&??/??;??n??]?kh??t??`i????|J?j3:??x????
+???EKU~????>w,]^#
+?S??T%???T?\n?_???W/`?$ ??z?j?>V?H???X?k#????As?v?d??tgtl???$B?e?4z>|???o?	5???0	n???????9F_=?
+????}?,yr?08?????s&`??4I??F?/.??{?BK#?????g@?wN???????=d????IW1$?7????%?3p??2????V??P??X?C??l?!4o9
+????!??Le??WL?????E?X.509<0?80? 	????_0
+	*?H??
+0^10	UCA10	UON10UTORONTO10
+U
+BMO10	UTD10UDP_Shakedown0
+160824201115Z
+210823201115Z0^10	UCA10	UON10UTORONTO10
+U
+BMO10	UTD10UDP_Shakedown0?"0
+	*?H??
+?0?
+??6?vNO@U6????~?k???)u?L?|f;??{kf?l??R/? h?muW?L832*???????d)??@??
+??
+??j?u?)?@?j?^????A??[?4?>K?*???h????]d??K???j,?U?t??B{??zG?V1U?3?rKuCCx`??-????N???Z??2????:T??Po/??F@??W??S?????H??????XK
+Ha%?m ??2Qu?jN_(l?Xf?D?z??????0
+	*?H??
+?
+??T???mm??'??)M	{?met?'?????t?K<??#\???l}?+?Ze?/.$??A?is??????#?|???????69??n
+?m???V?][ia"%m????t?}?	V???kL?z?g??c?E?g?%?ZNc"??V:?m????"]?+???u?T??p-;????	???5L??Kd?_?^?q??g8O5?G??b??0???}?x?['?qs?jK?9??`?S??6#??;???a??C/?)2???W??Y??????w?Y????
+00:48:49,859 INFO  [SoapUIProTestCaseRunner] running step [ExecutabilityCheck]
+00:48:49,897 INFO  [SoapUIProTestCaseRunner] running step [Read XML OR JSON  Payload]
+00:48:50,066 INFO  [log] GetMessage
+00:48:50,066 INFO  [log] EMCV2
+00:48:50,066 INFO  [log] {methods=Get}
+00:48:50,066 INFO  [log] {fileType=json}
+00:48:50,067 INFO  [log] Get Json
+00:48:50,067 INFO  [SoapUIProTestCaseRunner] running step [ReadExcel]
+00:48:50,213 INFO  [log] 2019-05-19T20:48:50.212
+00:48:50,213 INFO  [log] {fileType=json}
+00:48:50,215 INFO  [log] {requestFileType=}
+00:48:50,216 INFO  [log] {file=/readyapi/soap/TestData/Component/TestData_SIT1.xlsx}
+00:48:50,296 INFO  [log] 9
+00:48:50,297 INFO  [log] TestCaseID
+00:48:50,297 INFO  [log] TC_001/n
+00:48:50,300 INFO  [log] Test Case Description
+00:48:50,300 INFO  [log] TC_001_GetMessage_Validate the response with the API headers in request/n
+00:48:50,300 INFO  [log] HeaderValue
+00:48:50,300 INFO  [log] {"requestId": "LMUGUCKU8","customerType": "RETAIL","ocifId":"723233334476500", "ecifId": "","cardNo": "5007660011004085","sourceIP": "192.168.1.1","cardType": "BANK_DEBITCARD"}/n
+00:48:50,301 INFO  [log] QueryField
+00:48:50,301 INFO  [log] profileId/n
+00:48:50,301 INFO  [log] QueryValue
+00:48:50,301 INFO  [log] H4521-F5D78464D2CD455090A6D679DE/n
+00:48:50,301 INFO  [log] Expected
+00:48:50,301 INFO  [log] Success/n
+00:48:50,301 INFO  [log] Xpath
+00:48:50,302 INFO  [log] result.status/n
+00:48:50,302 INFO  [log] TestSetID
+00:48:50,302 INFO  [log] 1621/n
+00:48:50,302 INFO  [log] TestID
+00:48:50,302 INFO  [log] 14430/n
+00:48:50,302 INFO  [SoapUIProTestCaseRunner] running step [RequestToTrigger]
+00:48:50,352 INFO  [log] /readyapi/soap
+00:48:50,357 INFO  [SoapUIProTestCaseRunner] running step [Get JSON]
+00:48:52,968 INFO  [SoapUIProTestCaseRunner] running step [GetJSONLogger]
+00:48:53,082 INFO  [log] /readyapi/soap
+00:48:53,155 INFO  [log] TC_001
+00:48:53,166 INFO  [log] /readyapi/soap/DetailedReport/Component/SIT1_2019-05-20_Logs/TC_001
+00:48:53,168 INFO  [log] /readyapi/soap/DetailedReport/Component/SIT1_2019-05-20_Logs/TC_001//TC_001_EMCV2_GetMessage_Logs.txt
+00:48:53,175 INFO  [SoapUIProTestCaseRunner] running step [Reporting]
+00:48:53,660 INFO  [log] 0
+00:48:53,678 INFO  [log] intResultsRow = 1
+00:48:55,194 INFO  [log] {request=}
+00:48:55,194 INFO  [log] {response=}
+00:48:55,194 INFO  [log] 
+00:48:55,195 INFO  [log] 
+00:48:55,195 INFO  [log] TC_001
+00:48:55,195 INFO  [log] TC_001_GetMessage_Validate the response with the API headers in request
+00:48:55,197 INFO  [log] Passed
+00:48:55,198 INFO  [log] 2019-05-20 00:48:50 206
+00:48:55,199 INFO  [log] Mon May 20 00:48:50 GMT-04:00 2019
+00:48:55,200 INFO  [log] 2019-05-19 20:48:55 200
+00:48:55,200 INFO  [log] Sun May 19 20:48:55 GMT-04:00 2019
+00:48:55,201 INFO  [log] {Passed=1}
+00:48:55,205 INFO  [log] -3 hours, -59 minutes, -55.000 seconds
+00:48:55,380 INFO  [SoapUIProTestCaseRunner] running step [DataSource Loop]
+00:48:55,931 INFO  [SoapUIProTestCaseRunner] Finished running TestCase [Component_TestScript], time taken: 6166ms, status: PASS
+00:48:55,934 INFO  [SoapUIProTestCaseRunner] Test Suite [Component_TestSuite] finished with status [PASS] in 8299ms
+00:48:55,935 INFO  [license] ReadyAPI 2.5.0 shutting down
+123
